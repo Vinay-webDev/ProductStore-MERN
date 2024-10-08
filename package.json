@@ -10,7 +10,7 @@
     "start": "cross-env NODE_ENV=production node backend/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "vinay h c",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
