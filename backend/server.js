@@ -14,6 +14,10 @@ const __dirname = path.resolve();
 
 app.use(express.json());
 
+app.get('/ping', (req, res) => {
+    res.status(200).json({ status: "ok" });
+})
+
 app.use('/api/products', productRoutes);
 //react static app and server both backend and frontend on same domain
 if (process.env.NODE_ENV === "production") {
